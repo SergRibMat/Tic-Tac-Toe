@@ -1,4 +1,4 @@
-package com.example.cruzraya
+package com.example.tic_tac_toe
 
 data class Player(
 
