@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="5">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/tv_player_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+
+        android:columnCount="3"
+        android:rowCount="3"
+        android:background="@color/colorAccent"
+
+        >
+        <ImageView
+            android:id="@+id/imageView_0_0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            />
+        <ImageView
+            android:id="@+id/imageView_0_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+
+            />
+        <ImageView
+            android:id="@+id/imageView_0_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:clickable="true"
+
+            />
+        <ImageView
+            android:id="@+id/imageView_1_0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            />
+        <ImageView
+            android:id="@+id/imageView_1_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:clickable="true"
+
+            />
+        <ImageView
+            android:id="@+id/imageView_1_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:clickable="true"
+
+            />
+        <ImageView
+            android:id="@+id/imageView_2_0"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:clickable="true"
+
+            />
+        <ImageView
+            android:id="@+id/imageView_2_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:clickable="true"
+            />
+        <ImageView
+            android:id="@+id/imageView_2_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorWhite"
+            android:clickable="true"
+            />
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:text="Exit"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button_PlayAgain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play Again"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
