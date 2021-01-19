@@ -1,4 +1,4 @@
-package com.example.tic_tac_toe
+package sergio.ribera.tic_tac_toe
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -22,7 +22,7 @@ class BoardViewModel(): ViewModel() {
             setBoardData(boardArrayVal.boardArray)
         }
 
-    fun getBoardArrayVal(): BoardArray{
+    fun getBoardArrayVal(): BoardArray {
         return boardArrayVal
     }
     fun getBoardData(): MutableLiveData<Array<Array<Int>>>{

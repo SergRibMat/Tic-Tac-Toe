@@ -1,4 +1,6 @@
-package com.example.tic_tac_toe
+package sergio.ribera.tic_tac_toe
+
+import sergio.ribera.tic_tac_toe.R
 
 class PlayerArray {
 

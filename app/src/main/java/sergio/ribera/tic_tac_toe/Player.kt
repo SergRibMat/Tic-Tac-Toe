@@ -1,4 +1,4 @@
-package com.example.tic_tac_toe
+package sergio.ribera.tic_tac_toe
 
 data class Player(
 
