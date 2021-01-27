@@ -37,7 +37,7 @@ https://play.google.com/store/apps/details?id=ribera.sergio.tic_tac_toe
 
 ## Illustration
 
-
+![Peek 2021-01-27 17-12](https://user-images.githubusercontent.com/54866393/106024998-9f767b80-60c8-11eb-8338-61834ed9892a.gif)
 
 ## Project status 
 
